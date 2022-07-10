@@ -1,22 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
-body{
-    font-family: 'Be Vietnam Pro', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
 }
-h1{
-font-weight: 600;
-font-size: 50px;
-line-height: 73px;
-color: #3A3A3A;
+h1 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 73px;
+  color: #3a3a3a;
 }
-h2{
-font-weight: 600;
-font-size: 40px;
-line-height: 58px;
-color: #F37A7A;
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 58px;
+  color: #f37a7a;
 }
-p{
-font-weight: 400;
+p {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 55px;
+  color: #838383;
+}
+.button-branding{
+font-family: "Be Vietnam Pro", sans-serif;
+padding: 10px 24px !important;
+background: #E84949!important;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
 font-size: 35px;
-line-height: 55px;
-color: #838383;
+line-height: 51px;
+color: #FFFFFF;
+}
+.button-branding:hover{
+    border: #E84949;
+    color: #FFFFFF;
+}
+img{
+    filter: grayscale(100%);
 }
