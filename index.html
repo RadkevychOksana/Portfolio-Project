@@ -24,7 +24,8 @@
   </head>
   <body>
     <div class="container">
-        <!--navbar with hamberger-->
+
+      <!--navbar with hamberger-->
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <div class="col-md-6 offset-md-6">
@@ -69,7 +70,6 @@
             Hello! Am a frontend developer and here is my portfolio website.
             Here you’ll learn about my journey as a frontend developer.
           </p>
-          <a href="#" class="btn hero__link">hire me</a>
         </div>
         <div class="col-md-6 hero__item">
           <img
@@ -84,39 +84,36 @@
       <section class="row skills align-items-center" id="skills">
         <h2 class="skills__heading text-center">Skills</h2>
         <div class="row">
-          <div class="col-md-6 skills__item">
-            <p class="skills__description">
+          <div class="col-sm-12 skills__item">
+            <p class="skills__description text-center">
               I have a vast experience in the following web technologies:
             </p>
             <div class="row skills__item_icons text-center">
-              <div class="col-md-3 icons__item">
+              <div class="col-sm-4 col-md-2 icons__item">
                 <i class="fa-brands fa-html5 skills_icons_orange"></i>
                 <p class="icons__description text-uppercase">html</p>
               </div>
-              <div class="col-md-3 icons__item">
+              <div class="col-sm-4 col-md-2 icons__item">
                 <i class="fa-brands fa-css3 skills_icons_blue"></i>
                 <p class="icons__description text-uppercase">ccs</p>
               </div>
-              <div class="col-md-3 icons__item">
+              <div class="col-sm-4 col-md-2 icons__item">
                 <i class="fa-brands fa-js skills_icons_yellow"></i>
                 <p class="icons__description">JavaScript</p>
               </div>
-              <div class="col-md-3 icons__item">
+              <div class="col-sm-4 col-md-2 icons__item">
                 <i class="fa-brands fa-bootstrap skills_icons_violet"></i>
                 <p class="icons__description">Bootstrap</p>
               </div>
-              <div class="col-md-3 icons__item">
+              <div class="col-sm-4 col-md-2 icons__item">
                 <i class="fa-brands fa-github"></i>
                 <p class="icons__description">GitHub</p>
               </div>
+              <div class="col-sm-4 col-md-2 icons__item">
+                <i class="fa-brands fa-react skills_icons_lightBlue"></i>
+                <p class="icons__description">React</p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 skills__item">
-            <img
-              class="img-fluid"
-              src="img/women codes.png"
-              alt="women codes"
-            />
           </div>
         </div>
       </section>
@@ -126,42 +123,59 @@
         <h2 class="gallery__heading">Projects</h2>
         <p class="gallery__description">Some of my projects include:</p>
         <div class="row d-flex justify-content-center">
-          <article class="col-sm-4 gallery__item">
+
+          <!--React weather app-->
+          <article class="col-md-4 gallery__item">
             <div class="gallery__content">
-              <img
-                class="project__image img-fluid"
-                src="img/weather-app.png"
-                alt="weather-app"
-              />
+              <iframe
+                src="https://darling-gnome-617d13.netlify.app/"
+                title="React weather app iframe"
+              ></iframe>
               <p class="project__description">
-                Dynamic data update using the API service.
-                <br>
+                Weather forecast web application coded in the React framework,
+                using
+                <a class="project__link" href="https://openweathermap.org/"
+                  >Open weather map API</a
+                >
+                <br />
                 <i class="fa-brands fa-html5"></i>
                 <i class="fa-brands fa-css3"></i>
                 <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
               </p>
-              <a class="project__link" href="https://teal-lokum-1b9c1f.netlify.app/"
+              <a
+                class="project__link"
+                href="https://darling-gnome-617d13.netlify.app/"
                 ><i class="fa-solid fa-globe"></i>Visit site</a
               >
             </div>
           </article>
-          <article class="col-sm-4 gallery__item">
+
+          <!--React dictionary app-->
+          <article class="col-md-4 gallery__item">
             <div class="gallery__content">
-              <div class="img_cover">
-                <img
-                class="project__image img-fluid"
-                src="img/yogurt.png"
-                alt="yogurt"
-              />
-              </div>
+              <iframe
+                src="https://gorgeous-sorbet-962294.netlify.app/"
+                title="React dictionary app iframe"
+              ></iframe>
               <p class="project__description">
-                Static page using JavaScript.
-                <br>
+                Dictionary web application coded in the React framework, using
+                <a class="project__link" href="https://dictionaryapi.dev/"
+                  >Dictionary API</a
+                >
+                and
+                <a class="project__link" href="https://www.pexels.com/"
+                  >Pexel API</a
+                >
+                <br />
                 <i class="fa-brands fa-html5"></i>
                 <i class="fa-brands fa-css3"></i>
                 <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
               </p>
-              <a class="project__link" href="https://ornate-dieffenbachia-02c69e.netlify.app/"
+              <a
+                class="project__link"
+                href="https://gorgeous-sorbet-962294.netlify.app/"
                 ><i class="fa-solid fa-globe"></i>Visit site</a
               >
             </div>
@@ -177,10 +191,18 @@
           <div class="col-md-6 social__item">
             <p class="social__description">My social media links:</p>
             <div class="social__icons">
-              <i class="fa-brands fa-linkedin"></i>
-              <i class="fa-brands fa-viber"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-solid fa-envelope"></i>
+              <a href="https://www.linkedin.com/in/oksana-radkevych-b5a731134/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.xing.com/profile/Oksana_Radkevych/cv"
+                ><i class="fa-brands fa-xing"></i
+              ></a>
+              <a href="mailto:radkevych.oksana@gmail.com"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+              <a href="tel:+491751155087"
+                ><i class="fa-solid fa-square-phone"></i>
+              </a>
             </div>
           </div>
           <div class="col-md-6">
