@@ -24,7 +24,6 @@
   </head>
   <body>
     <div class="container">
-
       <!--navbar with hamberger-->
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -51,24 +50,23 @@
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a
-                    class="nav-link"
+                    class="nav-link lng-skillsLink"
                     aria-current="page"
                     href="index.html#skills"
                     >Skills</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html#projects">Projects</a>
+                  <a class="nav-link lng-projectsLink" href="index.html#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html#contact">Contact</a>
+                  <a class="nav-link lng-contactsLink" href="index.html#contact">Contact</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
-
 
       <!--header-->
       <div class="row align-items-center hero">
@@ -90,10 +88,10 @@
 
       <!--Skills-->
       <section class="row skills align-items-center" id="skills">
-        <h2 class="skills__heading text-center">Skills</h2>
+        <h2 class="skills__heading text-center lng-skills">Skills</h2>
         <div class="row">
           <div class="col-sm-12 skills__item">
-            <p class="skills__description text-center">
+            <p class="skills__description text-center lng-skillsDescrition">
               I have a vast experience in the following web technologies:
             </p>
             <div class="row skills__item_icons text-center">
@@ -128,10 +126,11 @@
 
       <!--Projects-->
       <section class="gallery text-center" id="projects">
-        <h2 class="gallery__heading">Projects</h2>
-        <p class="gallery__description">Some of my projects include:</p>
+        <h2 class="gallery__heading lng-projects">Projects</h2>
+        <p class="gallery__description lng-projectsDescription">
+          Some of my projects include:
+        </p>
         <div class="row d-flex justify-content-center">
-
           <!--React weather app-->
           <article class="col-md-4 gallery__item">
             <div class="gallery__content">
@@ -139,18 +138,19 @@
                 src="https://darling-gnome-617d13.netlify.app/"
                 title="React weather app iframe"
               ></iframe>
-              <p class="project__description">
+              <p class="project__description lng-weatherAppDescription">
                 Weather forecast web application coded in the React framework,
                 using
-                <a class="project__link" href="https://openweathermap.org/"
-                  >Open weather map API</a
-                >
-                <br />
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3"></i>
-                <i class="fa-brands fa-js"></i>
-                <i class="fa-brands fa-react"></i>
               </p>
+              <a class="project__link" href="https://openweathermap.org/"
+                >Open weather map API</a
+              >
+              <br />
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3"></i>
+              <i class="fa-brands fa-js"></i>
+              <i class="fa-brands fa-react"></i>
+              <br />
               <a
                 class="project__link"
                 href="https://darling-gnome-617d13.netlify.app/"
@@ -166,21 +166,22 @@
                 src="https://gorgeous-sorbet-962294.netlify.app/"
                 title="React dictionary app iframe"
               ></iframe>
-              <p class="project__description">
+              <p class="project__description lng-dictionaryAppDescription">
                 Dictionary web application coded in the React framework, using
-                <a class="project__link" href="https://dictionaryapi.dev/"
-                  >Dictionary API</a
-                >
-                and
-                <a class="project__link" href="https://www.pexels.com/"
-                  >Pexel API</a
-                >
-                <br />
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3"></i>
-                <i class="fa-brands fa-js"></i>
-                <i class="fa-brands fa-react"></i>
               </p>
+              <a class="project__link" href="https://dictionaryapi.dev/"
+                >Dictionary API</a
+              >
+              <span class="project__description">and</span>
+              <a class="project__link" href="https://www.pexels.com/"
+                >Pexel API</a
+              >
+              <br />
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3"></i>
+              <i class="fa-brands fa-js"></i>
+              <i class="fa-brands fa-react"></i>
+              <br />
               <a
                 class="project__link"
                 href="https://gorgeous-sorbet-962294.netlify.app/"
@@ -197,13 +198,18 @@
       <div class="container">
         <div class="row social d-flex justify-content-between text-center">
           <div class="col-md-6 social__item">
-            <p class="social__description">My social media links:</p>
+            <p class="social__description lng-socialLinks">
+              My social media links:
+            </p>
             <div class="social__icons">
-              <a href="https://www.linkedin.com/in/oksana-radkevych-b5a731134/" target="_blank"
-
+              <a
+                href="https://www.linkedin.com/in/oksana-radkevych-b5a731134/"
+                target="_blank"
                 ><i class="fa-brands fa-linkedin"></i
               ></a>
-              <a href="https://www.xing.com/profile/Oksana_Radkevych/cv" target="_blank"
+              <a
+                href="https://www.xing.com/profile/Oksana_Radkevych/cv"
+                target="_blank"
                 ><i class="fa-brands fa-xing"></i
               ></a>
               <a href="mailto:radkevych.oksana@gmail.com"
@@ -215,25 +221,29 @@
             </div>
           </div>
           <div class="col-md-6">
-            <p class="social__description">Where to get my code</p>
+            <p class="social__description lng-githubLinks">
+              Where to get my code
+            </p>
             <p class="social__description">
               <i class="fa-brands fa-github social__icons"></i
               ><a
                 href="https://github.com/RadkevychOksana"
-                class="social__link" target="_blank"
+                class="social__link"
+                target="_blank"
               >
                 @oksana-radkevych</a
               >
-              on github
-              <br>
+              <span class="lng-on">on</span> github
+              <br />
               <i class="fa-regular fa-file-code"></i>
               <a
                 href="https://www.codewars.com/users/radoks/completed"
-                class="social__link" target="_blank"
+                class="social__link"
+                target="_blank"
               >
                 Completed katas</a
               >
-              on codewars
+              <span class="lng-onCodeWars">on</span> codewars
             </p>
           </div>
         </div>
