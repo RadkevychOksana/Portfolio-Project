@@ -44,6 +44,11 @@ const langArr = {
     en: "Dictionary web-application coded in the the react-framework, using",
     de: "Dictionary-Webanwendung, die im React-Framework codiert ist, mit",
   },
+  formDescription: {
+    ua: "Форма опитування написана на HTML та CSS. Застосовується перевірка HTML5.",
+    en: "The survey form is coded on HTML and CSS. HTML5 validation is applied.",
+    de: "Das Umfrageformular ist in HTML und CSS codiert. TML5-Validierung wurde angewendet.",
+  },
   socialLinks: {
     ua: "Знайти мене в соціальних мережах або написати мені листа:",
     en: "My social media links:",
